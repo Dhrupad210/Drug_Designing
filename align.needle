@@ -1,0 +1,98 @@
+########################################
+# Program: needle
+# Rundate: Tue 14 Oct 2025 19:44:37
+# Commandline: needle
+#    -asequence dpp4.fasta
+#    -bsequence 1J2E_clean_A.fasta
+#    -gapopen 10
+#    -gapextend 0.5
+#    -outfile align.needle
+# Align_format: srspair
+# Report_file: align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DPP4_HUMAN
+# 2: EMBOSS_001
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 766
+# Identity:     729/766 (95.2%)
+# Similarity:   729/766 (95.2%)
+# Gaps:          37/766 ( 4.8%)
+# Score: 3945.0
+# 
+#
+#=======================================
+
+DPP4_HUMAN         1 MKTPWKVLLGLLGAAALVTIITVPVVLLNKGTDDATADSRKTYTLTDYLK     50
+                                                          |||||||||||||
+EMBOSS_001         1 -------------------------------------DSRKTYTLTDYLK     13
+
+DPP4_HUMAN        51 NTYRLKLYSLRWISDHEYLYKQENNILVFNAEYGNSSVFLENSTFDEFGH    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+EMBOSS_001        14 NTYRLKLYSLRWISDHEYLYKQENNILVFNAEYGNSSVFLENSTFDEFGH     63
+
+DPP4_HUMAN       101 SINDYSISPDGQFILLEYNYVKQWRHSYTASYDIYDLNKRQLITEERIPN    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+EMBOSS_001        64 SINDYSISPDGQFILLEYNYVKQWRHSYTASYDIYDLNKRQLITEERIPN    113
+
+DPP4_HUMAN       151 NTQWVTWSPVGHKLAYVWNNDIYVKIEPNLPSYRITWTGKEDIIYNGITD    200
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+EMBOSS_001       114 NTQWVTWSPVGHKLAYVWNNDIYVKIEPNLPSYRITWTGKEDIIYNGITD    163
+
+DPP4_HUMAN       201 WVYEEEVFSAYSALWWSPNGTFLAYAQFNDTEVPLIEYSFYSDESLQYPK    250
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+EMBOSS_001       164 WVYEEEVFSAYSALWWSPNGTFLAYAQFNDTEVPLIEYSFYSDESLQYPK    213
+
+DPP4_HUMAN       251 TVRVPYPKAGAVNPTVKFFVVNTDSLSSVTNATSIQITAPASMLIGDHYL    300
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+EMBOSS_001       214 TVRVPYPKAGAVNPTVKFFVVNTDSLSSVTNATSIQITAPASMLIGDHYL    263
+
+DPP4_HUMAN       301 CDVTWATQERISLQWLRRIQNYSVMDICDYDESSGRWNCLVARQHIEMST    350
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+EMBOSS_001       264 CDVTWATQERISLQWLRRIQNYSVMDICDYDESSGRWNCLVARQHIEMST    313
+
+DPP4_HUMAN       351 TGWVGRFRPSEPHFTLDGNSFYKIISNEEGYRHICYFQIDKKDCTFITKG    400
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+EMBOSS_001       314 TGWVGRFRPSEPHFTLDGNSFYKIISNEEGYRHICYFQIDKKDCTFITKG    363
+
+DPP4_HUMAN       401 TWEVIGIEALTSDYLYYISNEYKGMPGGRNLYKIQLSDYTKVTCLSCELN    450
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+EMBOSS_001       364 TWEVIGIEALTSDYLYYISNEYKGMPGGRNLYKIQLSDYTKVTCLSCELN    413
+
+DPP4_HUMAN       451 PERCQYYSVSFSKEAKYYQLRCSGPGLPLYTLHSSVNDKGLRVLEDNSAL    500
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+EMBOSS_001       414 PERCQYYSVSFSKEAKYYQLRCSGPGLPLYTLHSSVNDKGLRVLEDNSAL    463
+
+DPP4_HUMAN       501 DKMLQNVQMPSKKLDFIILNETKFWYQMILPPHFDKSKKYPLLLDVYAGP    550
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+EMBOSS_001       464 DKMLQNVQMPSKKLDFIILNETKFWYQMILPPHFDKSKKYPLLLDVYAGP    513
+
+DPP4_HUMAN       551 CSQKADTVFRLNWATYLASTENIIVASFDGRGSGYQGDKIMHAINRRLGT    600
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+EMBOSS_001       514 CSQKADTVFRLNWATYLASTENIIVASFDGRGSGYQGDKIMHAINRRLGT    563
+
+DPP4_HUMAN       601 FEVEDQIEAARQFSKMGFVDNKRIAIWGWSYGGYVTSMVLGSGSGVFKCG    650
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+EMBOSS_001       564 FEVEDQIEAARQFSKMGFVDNKRIAIWGWSYGGYVTSMVLGSGSGVFKCG    613
+
+DPP4_HUMAN       651 IAVAPVSRWEYYDSVYTERYMGLPTPEDNLDHYRNSTVMSRAENFKQVEY    700
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+EMBOSS_001       614 IAVAPVSRWEYYDSVYTERYMGLPTPEDNLDHYRNSTVMSRAENFKQVEY    663
+
+DPP4_HUMAN       701 LLIHGTADDNVHFQQSAQISKALVDVGVDFQAMWYTDEDHGIASSTAHQH    750
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+EMBOSS_001       664 LLIHGTADDNVHFQQSAQISKALVDVGVDFQAMWYTDEDHGIASSTAHQH    713
+
+DPP4_HUMAN       751 IYTHMSHFIKQCFSLP    766
+                     ||||||||||||||||
+EMBOSS_001       714 IYTHMSHFIKQCFSLP    729
+
+
+#---------------------------------------
+#---------------------------------------

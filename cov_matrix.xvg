@@ -1,0 +1,27 @@
+# This file was created Fri Oct 17 12:34:30 2025
+# Created by:
+#           :-) GROMACS - gmx covar, 2023.3-Ubuntu_2023.3_1ubuntu3 (-:
+# 
+# Executable:   /usr/bin/gmx
+# Data prefix:  /usr
+# Working dir:  /home/ibab/dockex
+# Command line:
+#   gmx covar -s md.tpr -f md.trr -o cov_matrix.xvg -v eigenvectors.trr -l eigenvalues.log
+# gmx covar is part of G R O M A C S:
+#
+# GROwing Monsters And Cloning Shrimps
+#
+@    title "Eigenvalues of the covariance matrix"
+@    xaxis  label "Eigenvector index"
+@    yaxis  label "(nm\S2\N)"
+@TYPE xy
+         1 1.23402
+         2 0.928044
+         3 0.569406
+         4 0.404726
+         5 0.315902
+         6 0.266273
+         7 0.256282
+         8 0.210149
+         9 0.160608
+        10 0.141619

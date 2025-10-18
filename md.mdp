@@ -1,0 +1,29 @@
+title           = Production MD
+integrator      = md
+dt              = 0.002
+nsteps          = 100000       ; 1 ns = 500000 steps at 2 fs
+nstxout         = 10000
+nstvout         = 10000
+nstenergy       = 1000
+nstlog          = 1000
+continuation    = yes
+constraints     = h-bonds
+cutoff-scheme   = Verlet
+ns_type         = grid
+nstlist         = 20
+coulombtype     = PME
+rcoulomb        = 1.0
+rvdw            = 1.0
+pbc             = xyz
+
+tcoupl          = V-rescale
+tc-grps         = Protein Non-Protein
+tau_t           = 0.1   0.1
+ref_t           = 310   310
+
+pcoupl          = Parrinello-Rahman
+pcoupltype      = isotropic
+tau_p           = 2.0
+ref_p           = 1.0
+compressibility = 4.5e-5
+
